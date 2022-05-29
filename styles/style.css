@@ -109,7 +109,8 @@ h1 {
 	transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.header__link:is(:hover, :focus) {
+.header__link:is(:hover, :focus),
+.header__drop-link:is(:hover, :focus) {
 	color: var(--almost-black);
 }
 
